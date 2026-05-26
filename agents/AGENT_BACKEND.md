@@ -7,7 +7,8 @@
 1. Read DOCS.md — understand the project and data model
 2. Read rules/RULES_BACKEND.md — load all backend rules
 3. Read output of scan-context.sh — know every existing model, schema, service
-4. Never recreate a model, schema, service, or utility that already exists
+4. Apply Karpathy rules K1–K4 (see RULES_GENERAL.md) before every task
+5. Never recreate a model, schema, service, or utility that already exists
 
 ## Architecture — strict layering (NEVER violate this)
 ```

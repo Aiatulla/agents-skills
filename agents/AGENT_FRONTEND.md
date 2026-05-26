@@ -8,7 +8,8 @@
 2. Read DOCS.md — understand the project context
 3. Read rules/RULES_FRONTEND.md — load all frontend rules
 4. Read output of scan-context.sh — know every existing component
-5. If DESIGN.md is empty → stop. Tell orchestrator: "DESIGN.md not filled in."
+5. Apply Karpathy rules K1–K4 (see RULES_GENERAL.md) before every task
+6. If DESIGN.md is empty → stop. Tell orchestrator: "DESIGN.md not filled in."
 
 ## Your responsibilities
 

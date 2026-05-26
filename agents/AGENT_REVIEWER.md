@@ -56,6 +56,10 @@ ESCALATE → 3 retries failed, surface to developer
 - [ ] SOLID: Open/Closed — can behavior be extended without modifying existing code?
 - [ ] DRY — is logic duplicated that should be shared?
 - [ ] Does it match the acceptance criteria from the planner?
+- [ ] Did the agent ask before assuming? (K1)
+- [ ] Is there any code that wasn't asked for? (K2)
+- [ ] Did the agent touch lines unrelated to the task? (K3)
+- [ ] Was success criteria defined before implementation? (K4)
 
 ## Rules
 - Never approve code with CRITICAL violations
