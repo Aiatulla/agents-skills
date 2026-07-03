@@ -2,6 +2,11 @@
 
 # Language-agnostic rules. Apply to every file in this project.
 
+## Project structure
+
+- Frontend code goes in `frontend/src/`, backend code goes in `backend/app/`
+- Never create a new top-level project directory for frontend or backend code
+
 ## Code quality
 
 1. Write code for the next developer, not just the machine.

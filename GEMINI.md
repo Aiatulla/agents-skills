@@ -23,6 +23,7 @@ If DOCS.md or DESIGN.md are empty placeholders, stop and tell the developer.
 
 ## Non-negotiable rules (apply to every file you touch)
 
+- Frontend code lives in `frontend/src/`, backend code lives in `backend/app/` — never create a new top-level project directory
 - Never recreate a component, model, schema, or utility that already exists
 - Never hardcode colors, fonts, or spacing — always use CSS variables or Tailwind tokens
 - Never skip TypeScript types on the frontend
