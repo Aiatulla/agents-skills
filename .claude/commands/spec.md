@@ -11,3 +11,9 @@ Then write docs/specs/<next-number>-<slug>.md:
 ## Acceptance criteria  (observable behavior: "given X, when Y, then Z")
 ## Constraints     (stack, performance, security, compatibility)
 ## Open questions
+## Customer summary   (plain language, no technical terms, send this to the customer)
+  - What will change for users, as 3-5 concrete scenarios:
+    "Anna pays for an order. Even if the payment confirmation arrives twice,
+     she is charged once and gets one confirmation email."
+  - What will NOT be included in this version (from Non-goals)
+  - Questions we need the customer to answer
